@@ -30,9 +30,38 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: pixeldroid/programming-pages
+
+project:
+  name: NWO-I DCC Github Environment
+  owner: NWO-I DCC
+  repo: https://github.com/nwo-i-dcc
+  version: 0.1
+collections:
+  workshops:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Workshops
+    tab-order: 1
+  tutorials:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Tutorials
+    tab-order: 2
+  layout_api:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Layout API
+    tab-order: 3
+highlighter: rouge
+kramdown:
+  footnote_backlink: "⮌"
+permalink: pretty
+sass:
+  style: compressed
 plugins:
-  - jekyll-feed
+- jemoji
+- jekyll-remote-theme
+remote_theme: pixeldroid/programming-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
