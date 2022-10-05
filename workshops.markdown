@@ -4,7 +4,7 @@ title: Workshops
 permalink: /workshops/
 ---
 
-# Planned courses
+# Planned workshops
 
 *Software Carpentry (Shell, Git & Python)*
 _Monday 28 November and Tuesday 13 December 2022_
