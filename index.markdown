@@ -5,5 +5,4 @@
 layout: "page"
 title: NWO-I DCC Github environment
 ---
-List of workshop websites:
-https://nwo-i-dcc.github.io/2022-11-28-software-carpentry/
+Carpentries workshops and Carpentries inspired workshops organized by NWO-I DCC can be foud here: [workshop page.](/workshops/)
